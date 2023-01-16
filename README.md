@@ -9,7 +9,7 @@ The calculator also keeps a running total of the operations completed, the numbe
 and what those operations were. The calculator also has an "undo" function for removing the last operation.
 The calculator outputs a string of the operations completed so far with fixed precision.
 
-CalcList calc;                        // Total == 0\n
+CalcList calc;                        // Total == 0
 calc.newOperation(ADDITION, 10);      // Total == 10
 calc.newOperation(MULTIPLICATION, 5); // Total == 50
 calc.newOperation(SUBTRACTION, 15); // Total == 35
